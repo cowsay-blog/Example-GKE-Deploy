@@ -21,7 +21,7 @@ steps:
   - 'set'
   - 'image'
   - 'deployment/${_DEPLOYMENT}'
-  - '$_DEPLOYMENT=gcr.io/$PROJECT_ID/${_IMAGE}:$BUILD_ID'
+  - '$_CONTAINER=gcr.io/$PROJECT_ID/${_IMAGE}:$BUILD_ID'
   env:
   - 'CLOUDSDK_COMPUTE_ZONE=${_ZONE}'
   - 'CLOUDSDK_CONTAINER_CLUSTER=${_CLUSTER}'
