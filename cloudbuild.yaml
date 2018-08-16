@@ -30,4 +30,5 @@ substitutions:
   _CLUSTER: nanodesu
   _ZONE: us-west1-a
   _IMAGE: example-image
+  _CONTAINER: nginx
   _DEPLOYMENT: example-deployment
